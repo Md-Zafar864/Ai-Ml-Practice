@@ -1,15 +1,10 @@
 import numpy as np
-
-
 # ============================================================
 # 1. INPUT
 # ============================================================
-
 # 3 tokens:
 # cat, eats, food
-#
 # Each token has 4 features.
-#
 # Shape: (3, 4)
 
 X = np.array([
@@ -19,12 +14,9 @@ X = np.array([
 ])
 
 print("Input X shape:", X.shape)
-
-
 # ============================================================
 # 2. SOFTMAX FUNCTION
 # ============================================================
-
 # Converts attention scores into attention weights.
 # Each row will add up to approximately 1.
 
